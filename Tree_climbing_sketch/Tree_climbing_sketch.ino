@@ -63,12 +63,11 @@ void setup() {
   }
   delay(3000);
 }
+//initial condition setup for climbing down
+reverse_ini();
 
 //climbing down loop
 void loop() {
-  //initial condition setup for climbing down
-  reverse_ini();
-
   pushDown();
   delay(3000);
   pullDown();
