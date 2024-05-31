@@ -7,13 +7,13 @@ Servo link2;
 Servo link3;
 
 const int gripper1Pin = 3;    //top gripper pin
-const int gripper2Pin = 11;   //lower gripper pin
-const int link1Pin = 6;       //top gripper link pin
-const int link2Pin = 9;       //middle link pin
-const int link3Pin = 10;      //lower gripper link pin
+const int gripper2Pin = 6;   //lower gripper pin
+const int link1Pin = 11;       //top gripper link pin
+const int link2Pin = 10;       //middle link pin
+const int link3Pin = 9;      //lower gripper link pin
 
 #define TRIG_PIN 5 // TRIG pin
-#define ECHO_PIN 4 // ECHO pin
+#define ECHO_PIN 8 // ECHO pin
 
 // Variable for distance measurement
 float distance;
